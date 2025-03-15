@@ -50,7 +50,7 @@ function asignarTextoElemento(elemento, texto){
 
 
 function condicionesIniciales(){
-    asignarTextoElemento('h1','Juego del número secreto!');
+    asignarTextoElemento('h1','¡Juego del número secreto!');
     asignarTextoElemento('p',`Indica un número de 1-${numeroMaximo}`);
     numeroSecreto = generarNumeroSecreto();
     intentos = 1;
